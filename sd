@@ -1,0 +1,41 @@
+[33mcommit 7fb1d2ec9ea9c67368349aed29bcba7d305f5a4a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 20:24:56 2023 +0700
+
+    add books template and index
+
+[33mcommit 65044b204658d7adb52502aa7cb53225d86921a1[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 20:04:00 2023 +0700
+
+    add register Book
+
+[33mcommit a33d1dbe3058287aa6e1a0418f931de8e1a0a766[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 19:38:56 2023 +0700
+
+    add field price to book
+
+[33mcommit cd5c2330f29ff91e8f087a092dff495096b00ed6[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 19:35:19 2023 +0700
+
+    code to book
+
+[33mcommit c43db71c670f40ae25c19907de44db384797374d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 16:57:11 2023 +0700
+
+    test commit lab 5
+
+[33mcommit 1e9f445706dfe58d318e4bd4a7d7cdadf7b25be1[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 16:50:52 2023 +0700
+
+    makemigrations
+
+[33mcommit a0c3a4311870a669902ac570babb19be7840ed79[m
+Author: assaw <assawin.in@rmuti.ac.th>
+Date:   Fri Oct 13 16:20:56 2023 +0700
+
+    new comment

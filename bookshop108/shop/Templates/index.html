@@ -3,14 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bookshop108/shop/Templates/css/nav.css">
     <title>Assaw's Books</title>
+
+    {# Load the tag library #}
+    {% load bootstrap5 %}
+
+    {# Load CSS and JavaScript #}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
 </head>
 <body>
-    <h1> Assaw's Books</h1>
-    {% for book in books %}
-    <h2>{{ books.name }}</h2>
-    <h3>{{ books.author }}</h3>
-    </br>
-    {% endfor %}
+
+    <div class="nav">
+                <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yo Tengo Dinero</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    </br></br></br>
+    <h1 class="titles"> Assaw's Books</h1><br>
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1280&h=1200&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+            {% for books in books %}
+          <h5 class="card-title">- {{books.name}}</h5>
+          <h6>{{ books.author }}</h6>
+          <br>
+            {% endfor %}
+            </br>
+            <a href="#" class="btn btn-primary">Show all books</a>
+        </div>
+    </div></br></br></br>
+
 </body>
 </html>

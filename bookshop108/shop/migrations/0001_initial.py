@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                 ('code', models.CharField(max_length=13, unique=True)),
                 ('name', models.CharField(max_length=150)),
                 ('author', models.CharField(max_length=250)),
+
             ],
         ),
     ]
